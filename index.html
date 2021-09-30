@@ -4,283 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-      .trophy-title { text-shadow: 1px 1px black; }
-    </style>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <title>LMC 2700 Homepage - Allen Santmier</title>
 </head>
 <body>
-    <!-- from w3 Architecht -->
-    <!-- Navbar (sit on top) -->
-    <div class="w3-top">
-        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-        <a href="#home" class="w3-bar-item w3-button">Allen Santmier</a>
-        <!-- Float links to the right. Hide them on small screens -->
-            <div class="w3-right w3-hide-small">
-                <a href="#about" class="w3-bar-item w3-button">About</a>
-                <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-                <a href="#skills" class="w3-bar-item w3-button">Skills</a>
-                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-            </div>
-        </div>
-    </div>
-    <!-- from architects -->
-    <!-- Page content -->
-    <div class="w3-content w3-padding" style="max-width:1564px" id="home">
-    <!-- from w3 50/50 -->
-    <!-- intro -->
-    <div class="w3-blue-grey w3-container" style="height:350px" id="about">
-        <div class="w3-padding-64 w3-center">
-          <h1 class="w3-wide">About Me</h1>
-          <!--img src="/w3images/avatar3.png" class="w3-left w3-margin-right w3-circle" alt="Person" style="width:50%"-->
-          <div class="w3-left-align w3-padding-large">
-            <p>Hi, I'm Allen! I'm a third-year computational media (Media/Games) student at Georgia Tech looking to hone my software engineering skills.</p>
-            <p>I'm primarily interested in developing and designing video games, but I enjoy working with computers in all aspects and can tackle an project that piques my interest.
-                All of my skills are self-taught and I'm always looking to learn new languages and software to expand my skillset. More recently I've begun studying 3D modeling, shaders, and programming with XR.
-            </p>
-            <p>My most important goals are to have fun with everything I do and make high quality products that people will enjoy!</p>
-          </div>
-        </div>
-    </div>
-    <!-- from kitchen sink -->
-    <!--
-    <div class="w3-row-padding w3-center w3-margin-top">
-        <div class="w3-third">
-          <div class="w3-card w3-container" style="min-height:460px">
-          <h3>Responsive</h3><br>
-          <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-          <p>Built-in responsiveness</p>
-          <p>Mobile first fluid grid</p>
-          <p>Fits any screen sizes</p>
-          <p>PC Tablet and Mobile</p>
-          </div>
-        </div>
-        
-        <div class="w3-third">
-          <div class="w3-card w3-container" style="min-height:460px">
-          <h3>Standard CSS</h3><br>
-          <i class="fa fa-css3 w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-          <p>Standard CSS only</p>
-          <p>Easy to learn</p>
-          <p>No need for jQuery</p>
-          <p>No JavaScript library</p>
-          </div>
-        </div>
-        
-        <div class="w3-third">
-          <div class="w3-card w3-container" style="min-height:460px">
-          <h3>Design</h3><br>
-          <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-          <p>Paper like design</p>
-          <p>Bold colors and shadows</p>
-          <p>Equal across platforms</p>
-          <p>Equal across devices</p>
-          </div>
-        </div>
-    </div>-->
-    <!-- from architects -->
-    <div class="w3-container w3-padding-32" id="projects">
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
-        <p>I've worked on a variety of projects, both on my own as a hobby, and in school as part of my education. Most of my hobbyist projects are small learning experiences that aren't quite worth sharing, but here you can find some of the larger
-            and more complete projects I've worked on for school.
-        </p>
-    </div>
-    
-    <div class="w3-row-padding w3-grayscale">
-        <div class="w3-col l3 m6 w3-margin-bottom">
-          <img src="image/sl.png" alt="" style="width:100%">
-          <h3>Signal Lost</h3>
-          <p class="w3-opacity w3-left">Roguelike Action</p>
-          <p class="w3-opacity w3-right">Unity, C#</p>
-          <div class="w3-clear"></div>
-          <p>A 2D game I made with a team of 3 friends, mentored by a teacher at our school. My first major foray in to Unity and a valuable lesson in organization and working on a time frame.</p>
-          <!-- learn more buttons will lead to page describing the project or maybe some sort of dynamic section below that can be minimized or maximized -->
-          <p><button class="w3-button w3-light-grey w3-block">Learn more</button></p>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-          <img src="image/dc.png" alt="" style="width:100%">
-          <h3>Dungeon Crawler</h3>
-          <p class="w3-opacity w3-left">Roguelike Hack n' Slash</p>
-          <p class="w3-opacity w3-right">Java</p>
-          <div class="w3-clear"></div>
-          <p>A 2D game made in cooperation with 4 others using some of Java's graphics libraries as a school project. It taught me the difficulty of working with new people asynchronously and the importance of good documentation.
-          </p>
-          <p><button class="w3-button w3-light-grey w3-block">Learn more</button></p>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-          <img src="image/snl.png" alt="" style="width:100%">
-          <h3>Sandia National Labs</h3>
-          <p class="w3-opacity w3-left">Exodus Filesystem Libraries</p>
-          <p class="w3-opacity w3-right">Python</p>
-          <div class="w3-clear"></div>
-          <p>An ongoing project with 4 other Tech students working with Sandia to improve and update the functionality of one of their filesystems.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Learn more</button></p>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-          <img src="image/web.png" alt="" style="width:100%">
-          <h3>Even This Website!</h3>
-          <p class="w3-opacity w3-left">You're looking at it</p>
-          <p class="w3-opacity w3-right">HTML, CSS</p>
-          <div class="w3-clear"></div>
-          <p>One of my first adventures with web design languages designed not to just look like a class project, but like a professional website.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Learn more</button></p>
-        </div>
-    </div>
-    <!-- from architects -->
-    <div class="w3-container w3-padding-32" id="skills">
-      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Skills</h3>
-    </div>
-    
-    <div class="w3-row-padding">
-      <div class="w3-col l2 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
-            <h4 class="trophy-title">Blender</h4>
-          </div>
-          <img src="image/blender.png" alt="blender" style="width:100%;">
-        </div>
-      </div>
-      <div class="w3-col l2 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
-            <h4 class="trophy-title">Photoshop</h4>
-          </div>
-          <img src="image/photoshop.png" alt="photoshop" style="width:100%">
-        </div>
-      </div>
-      <div class="w3-col l2 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
-            <h4 class="trophy-title">Godot</h4>
-          </div>
-          <img src="image/godot.png" alt="godot" style="width:100%">
-        </div>
-      </div>
-      <div class="w3-col l2 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
-            <h4 class="trophy-title">Unity</h4>
-          </div>
-          <img src="image/unity.svg" alt="unity" style="width:100%">
-        </div>
-      </div>
-      <div class="w3-col l2 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
-            <h4 class="trophy-title">C++</h4>
-          </div>
-          <img src="image/cpp.png" alt="c++" style="width:100%">
-        </div>
-      </div>
-      <div class="w3-col l2 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
-            <h4 class="trophy-title">C#</h4>
-          </div>
-          <img src="image/csharp.png" alt="c#" style="width:100%">
-        </div>
-      </div>
-    </div>
   
-    <div class="w3-row-padding">
-      <div class="w3-col l2 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
-            <h4 class="trophy-title">Python</h4>
-          </div>
-          <img src="image/python.png" alt="python" style="width:100%">
-        </div>
-      </div>
-      <div class="w3-col l2 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
-            <h4 class="trophy-title">Java</h4>
-          </div>
-          <img src="image/java.jpg" alt="java" style="width:100%">
-        </div>
-      </div>
-      <div class="w3-col l2 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
-            <h4 class="trophy-title">HTML & CSS</h4>
-          </div>
-          <img src="image/htmlcss.png" alt="html and css" style="width:100%">
-        </div>
-      </div>
-      <div class="w3-col l2 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
-            <h4 class="trophy-title">Javascript</h4>
-          </div>
-          <img src="image/javascript.png" alt="javascript" style="width:100%">
-        </div>
-      </div>
-      <div class="w3-col l2 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
-            <h4 class="trophy-title">MySQL</h4>
-          </div>
-          <img src="image/mysql.png" alt="mysql" style="width:100%">
-        </div>
-      </div>
-      <div class="w3-col l2 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
-            <h4 class="trophy-title">XR</h4>
-          </div>
-          <img src="image/vr.jpg" alt="xr" style="width:100%">
-        </div>
-      </div>
+  <!-- Header -->
+  <header class="w3-container w3-theme w3-padding" id="myHeader">
+    <div class="w3-center">
+    <h1 class="w3-xxxlarge w3-animate-top w3">LMC 2700 Projects</h1>
     </div>
-    <!-- from parallax -->
-    <!-- Container (Contact Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="contact">
-        <h3 class="w3-center w3-border-bottom w3-border-light-grey w3-padding-16">Contact Me</h3>
-        <p class="w3-center"><em>Any questions or feedback? I'd love to hear it!</em></p>
+  </header>
+  
+  <div class="w3-row-padding w3-center w3-margin-top w3-margin-bottom">
+    <div class="w3-half">
+        <div class="w3-card w3-container" style="min-height:400px">
+        <h3>Portfolio first draft</h3><br>
+        <img src="res/HTML5_logo_and_wordmark.svg" height=200px><br>
         <br>
-        <div class="w3-panel w3-center">
-            <div class="w3-large w3-margin-bottom">
-                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Atlanta, GA<br>
-                <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: asantmier3@gatech.edu<br>
-            </div>
-            <p>Or you can quickly contact me with the form below:</p>
-            <!-- This stuff is basically placeholder right now. I don't know how to do something like this but I'll have it working by the last time I submit this website :) -->
-            <form action="/action_page.php" target="_blank">
-            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                <div class="w3-half">
-                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-                </div>
-                <div class="w3-half">
-                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-                </div>
-            </div>
-            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-            <button class="w3-button w3-black w3-right w3-section" type="submit">
-                <i class="fa fa-paper-plane"></i> SEND MESSAGE
-            </button>
-            </form>
+        <h5><a href="">Source Code</a></h5>
         </div>
     </div>
+    
+    <div class="w3-half">
+        <div class="w3-card w3-container" style="min-height:400px">
+        <h3>AFrame</h3><br>
+        <img src="res/A-Frame_logo.png" height=200px><br>
+        <br>
+        <h5><a href="">Source Code</a></h5>
+        <h5><a href="https://www.artsy.net/artwork/steven-aalders-act-blue">Source Image</a></h5>
+        </div>
     </div>
-    <!-- from parallax -->
-    <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-64">
-        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-    </footer>
+  </div>
+
+  <!--
+  <div class="w3-row-padding w3-center w3-margin-top w3-margin-left w3-margin-right">
+    <div class="w3-card w3-container" style="min-height:460px">
+        <h3>Design</h3><br>
+        <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+        <p>Paper like design</p>
+        <p>Bold colors and shadows</p>
+        <p>Equal across platforms</p>
+        <p>Equal across devices</p>
+        </div>
+  </div>
+  -->
+
+  <!-- Footer -->
+<footer class="w3-container w3-theme-dark w3-padding-16 w3-center">
+    <h5><a href="">Github repo and source</a></h5>
+  </footer>
 </body>
 </html>
