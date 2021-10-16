@@ -95,9 +95,9 @@
           <p class="w3-opacity w3-left">Roguelike Action</p>
           <p class="w3-opacity w3-right">Unity, C#</p>
           <div class="w3-clear"></div>
-          <p>A 2D game I made with a team of 3 friends, mentored by a teacher at our school. My first major foray in to Unity and a valuable lesson in organization and working on a time frame.</p>
+          <p style="height: 8em;">A 2D game I made with a team of three friends, mentored by a teacher at our school. My first major foray in to Unity and a valuable lesson in organization and working on a time frame.</p>
           <!-- learn more buttons will lead to page describing the project or maybe some sort of dynamic section below that can be minimized or maximized -->
-          <p><button class="w3-button w3-light-grey w3-block">Learn more</button></p>
+          <p><button onclick="document.getElementById('p1').style.display='block'" class="w3-button w3-light-grey w3-block">Learn more</button></p>
         </div>
         <div class="w3-col l3 m6 w3-margin-bottom">
           <img src="image/dc.png" alt="" style="width:100%">
@@ -105,29 +105,180 @@
           <p class="w3-opacity w3-left">Roguelike Hack n' Slash</p>
           <p class="w3-opacity w3-right">Java</p>
           <div class="w3-clear"></div>
-          <p>A 2D game made in cooperation with 4 others using some of Java's graphics libraries as a school project. It taught me the difficulty of working with new people asynchronously and the importance of good documentation.
-          </p>
-          <p><button class="w3-button w3-light-grey w3-block">Learn more</button></p>
+          <p style="height: 8em;">A 2D game made in cooperation with four others using some of Java's graphics libraries as a school project. It taught me the difficulty of working with new people asynchronously and the importance of good documentation.</p>
+          <p><button onclick="document.getElementById('p2').style.display='block'"  class="w3-button w3-light-grey w3-block">Learn more</button></p>
         </div>
         <div class="w3-col l3 m6 w3-margin-bottom">
           <img src="image/snl.png" alt="" style="width:100%">
-          <h3>Sandia National Labs</h3>
-          <p class="w3-opacity w3-left">Exodus Filesystem Libraries</p>
+          <h3>Exodus II Python Library</h3>
+          <p class="w3-opacity w3-left">Exodus netCDF Libraries</p>
           <p class="w3-opacity w3-right">Python</p>
           <div class="w3-clear"></div>
-          <p>An ongoing project with 4 other Tech students working with Sandia to improve and update the functionality of one of their filesystems.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Learn more</button></p>
+          <p style="height: 8em;">An ongoing project with four other Tech students working with Sandia to improve the quality and ease of access of codes used in finite element analysis.</p>
+          <p><button onclick="document.getElementById('p3').style.display='block'"  class="w3-button w3-light-grey w3-block">Learn more</button></p>
         </div>
         <div class="w3-col l3 m6 w3-margin-bottom">
           <img src="image/web.png" alt="" style="width:100%">
           <h3>Even This Website!</h3>
           <p class="w3-opacity w3-left">You're looking at it</p>
-          <p class="w3-opacity w3-right">HTML, CSS</p>
+          <p class="w3-opacity w3-right">HTML, CSS, Javascript</p>
           <div class="w3-clear"></div>
-          <p>One of my first adventures with web design languages designed not to just look like a class project, but like a professional website.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Learn more</button></p>
+          <p style="height: 8em;">One of my first adventures with web design languages designed not to just look like a class project, but like a professional website.</p>
+          <p><button onclick="document.getElementById('p4').style.display='block'"  class="w3-button w3-light-grey w3-block">Learn more</button></p>
         </div>
     </div>
+    <!--Ooh, put the Aframe in here too-->
+
+    <div id="p1" class="w3-modal">
+      <div class="w3-modal-content w3-animate-zoom">
+
+        <header class="w3-container w3-display-container w3-blue-gray w3-bottombar">
+          <span onclick="document.getElementById('p1').style.display='none'"
+          class="w3-button w3-display-topright">&times;</span>
+          <h2 class="w3-left">Signal Lost</h2>
+          <h7 class="w3-display-bottomright w3-padding-small w3-opacity-min"><i>Roguelike action game in Unity</i></h7>
+        </header>
+    
+        <div class="w3-container">
+          <p>&emsp;Signal Lost is the name of a 2D top-down roguelike action game developed as part of a senior capstone project 
+            at my highschool. I developed it alongside three of my friends under the mentorship of one of our computer science
+            teachers who had previous corporate project management experience. It was developed from scratch in a one year span.
+          </p>
+          <p>&emsp;During this project, we had no appointed leader, although I often took the role when necessary; however my proper
+            role on the team was simulation code and code organization. Every week our mentor had us report to him our progress, 
+            what we still had to do, what we failed to do, and a demonstration of our project. He helped teach us how to give
+            concise and meaningful progress reports as would be expected of a team on a professional project. Additionally, he 
+            taught us proper timeline planning and helped us improve the reasonability of our expectations.
+          </p>
+          <p>&emsp;This project was the first time I had tried developing a full scale video game, my first true experience
+            developing with Unity, and my first time programming in a group environment. I learned the importance of balancing
+            code quality with production speed and to develop good systems early rather than rewriting bad ones later. I also
+            learned how to correctly (and incorrectly) use GitHub in a shared repository. I think my most important takeaway
+            from this project was learning how easy it is to underestimate how difficult a task is and to always be conservative
+            in planning because there will always be unforseen delays.
+          </p>
+        </div>
+    
+        <footer class="w3-container w3-blue-gray w3-topbar">
+          <br>
+        </footer>
+    
+      </div>
+    </div>
+    <div id="p2" class="w3-modal">
+      <div class="w3-modal-content w3-animate-zoom">
+
+        <header class="w3-container w3-display-container w3-blue-gray w3-bottombar">
+          <span onclick="document.getElementById('p2').style.display='none'"
+          class="w3-button w3-display-topright">&times;</span>
+          <h2 class="w3-left">Dungeon Crawler</h2>
+          <h7 class="w3-display-bottomright w3-padding-small w3-opacity-min"><i>Roguelike hack n' slash in Java</i></h7>
+        </header>
+    
+        <div class="w3-container">
+          <p>&emsp;As part of a semester long school project in college, I worked with a team of four other students to develop
+            a 2D top-down roguelike hack n' slash game using Java. The style of game and timetable for development were decided
+            by the professor, but the specifics of implementation were left to us.
+          </p>
+          <p>&emsp;This project was, at least to me, much the same as Signal Lost - one of my teammates from that project was
+            actually in my team for this project too! I had already learned many lessons from my previous project experience,
+            so it's harder to say what I learned, though I'm quite certain this project helped solidify the lessons of the past.
+            One new thing I learned is the value of dividing work among a team. I did most of the level generation and physics
+            simulation logic, but left the visual and gameplay elements mostly to my teammates except when they needed help. I 
+            learned to appreciate such division of work in which everyone is doing what they are best at rather than everyone needing
+            to develop skills for all parts of development.
+          </p>
+          <p>&emsp;Another unique part of this project was our use of Java. I personally dislike programming visual programs in
+            Java and the specific libraries we were using were not the least bit user friendly, but we managed to make a reasonably
+            good product nevertheless. We also used JUnits to run tests on our code. This was my first time using a testing suite, so I
+            learned quite a lot including how useful automatic tests are. Though I have not yet had the chance to try testing in another
+            project, I'm excited to see what kind of useful building and validation features I can make going forward!
+          </p>
+        </div>
+    
+        <footer class="w3-container w3-blue-gray w3-topbar">
+          <br>
+        </footer>
+    
+      </div>
+    </div>
+    <div id="p3" class="w3-modal">
+      <div class="w3-modal-content w3-animate-zoom">
+
+        <header class="w3-container w3-display-container w3-blue-gray w3-bottombar">
+          <span onclick="document.getElementById('p3').style.display='none'"
+          class="w3-button w3-display-topright">&times;</span>
+          <h2 class="w3-left">Exodus II Python Library</h2>
+          <h7 class="w3-display-bottomright w3-padding-small w3-opacity-min"><i>Python library for manipulating Exodus files</i></h7>
+        </header>
+    
+        <div class="w3-container">
+          <p>&emsp;As part of a year-long junior design class, I am working with four other Georgia Tech students to aid Sandia National
+            Labs in updating their codebase to the modern era. Sandia uses a file format called Exodus II in their finite element analysis
+            applications, but the libraries for directly interacting with Exodus files are rather aged. For a little background: finite 
+            element analysis (FEA) is a technique for simulating and analyzing how an engineered object will react to forces applied to it.
+            FEA is a multi-step - and often multi-computer - process so data about the model, simulation, and results are stored in an
+            Exodus file. Analysts usually use software to interact with Exodus files, but when the software can't do what they want, they
+            write scripts to manually modify the files.
+          </p>
+          <p>&emsp;Here's where this project comes into play. Analysts usually want to program in Python or sometimes MATLAB, but unfortunately
+            that requires installing Python, C, and Fortran on <em>every</em> computer that needs to interact with Exodus. Decades old code
+            really has its drawbacks...
+          </p>
+          <p>&emsp;We are developing a standalone Python library that interacts with Exodus files through their underlying netCDF interface.
+            This is a work in progress, so we haven't done much of note yet, but I imagine this will be my most challenging work yet.
+          </p>
+        </div>
+    
+        <footer class="w3-container w3-blue-gray w3-topbar">
+          <br>
+        </footer>
+    
+      </div>
+    </div>
+    <div id="p4" class="w3-modal">
+      <div class="w3-modal-content w3-animate-zoom">
+
+        <header class="w3-container w3-display-container w3-blue-gray w3-bottombar">
+          <span onclick="document.getElementById('p4').style.display='none'"
+          class="w3-button w3-display-topright">&times;</span>
+          <h2 class="w3-left">Personal Portfolio Website</h2>
+          <h7 class="w3-display-bottomright w3-padding-small w3-opacity-min"><i>A website for displaying my accomplishments</i></h7>
+        </header>
+    
+        <div class="w3-container">
+          <p>&emsp;This website is designed as part of a class project in college and serves to train my web design skills. The site is
+            designed using the W3 CSS framework and is my biggest project yet using web design languages. I've already learned a great
+            deal about web design from the project and the difficulties surrounding it, but I still have much to improve on!
+          </p>
+        </div>
+    
+        <footer class="w3-container w3-blue-gray w3-topbar">
+          <br>
+        </footer>
+    
+      </div>
+    </div>
+
+    <script>
+      // Get the modal
+      var modals = [
+        document.getElementById('p1'),
+        document.getElementById('p2'),
+        document.getElementById('p3'),
+        document.getElementById('p4')
+      ];
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        for (let modal of modals) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+      }
+    </script>
+
     <!-- from architects -->
     <div class="w3-container w3-padding-32" id="skills">
       <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Skills</h3>
@@ -136,8 +287,8 @@
     <div class="w3-row-padding">
       <div class="w3-col l2 m6 w3-margin-bottom">
         <div class="w3-display-container">
-          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
+          <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%;"></div>
+          <div class="w3-display-middle w3-text-white w3-padding w3-center" style="width: 100%;">
             <h4 class="trophy-title">Blender</h4>
           </div>
           <img src="image/blender.png" alt="blender" style="width:100%;">
@@ -146,7 +297,7 @@
       <div class="w3-col l2 m6 w3-margin-bottom">
         <div class="w3-display-container">
           <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
+          <div class="w3-display-middle w3-text-white w3-padding w3-center" style="width: 100%;">
             <h4 class="trophy-title">Photoshop</h4>
           </div>
           <img src="image/photoshop.png" alt="photoshop" style="width:100%">
@@ -155,7 +306,7 @@
       <div class="w3-col l2 m6 w3-margin-bottom">
         <div class="w3-display-container">
           <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
+          <div class="w3-display-middle w3-text-white w3-padding w3-center" style="width: 100%;">
             <h4 class="trophy-title">Godot</h4>
           </div>
           <img src="image/godot.png" alt="godot" style="width:100%">
@@ -164,16 +315,16 @@
       <div class="w3-col l2 m6 w3-margin-bottom">
         <div class="w3-display-container">
           <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
+          <div class="w3-display-middle w3-text-white w3-padding w3-center" style="width: 100%;">
             <h4 class="trophy-title">Unity</h4>
           </div>
-          <img src="image/unity.svg" alt="unity" style="width:100%">
+          <img src="image/unity.png" alt="unity" style="width:100%">
         </div>
       </div>
       <div class="w3-col l2 m6 w3-margin-bottom">
         <div class="w3-display-container">
           <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
+          <div class="w3-display-middle w3-text-white w3-padding w3-center" style="width: 100%;">
             <h4 class="trophy-title">C++</h4>
           </div>
           <img src="image/cpp.png" alt="c++" style="width:100%">
@@ -182,7 +333,7 @@
       <div class="w3-col l2 m6 w3-margin-bottom">
         <div class="w3-display-container">
           <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
+          <div class="w3-display-middle w3-text-white w3-padding w3-center" style="width: 100%;">
             <h4 class="trophy-title">C#</h4>
           </div>
           <img src="image/csharp.png" alt="c#" style="width:100%">
@@ -194,7 +345,7 @@
       <div class="w3-col l2 m6 w3-margin-bottom">
         <div class="w3-display-container">
           <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
+          <div class="w3-display-middle w3-text-white w3-padding w3-center" style="width: 100%;">
             <h4 class="trophy-title">Python</h4>
           </div>
           <img src="image/python.png" alt="python" style="width:100%">
@@ -203,7 +354,7 @@
       <div class="w3-col l2 m6 w3-margin-bottom">
         <div class="w3-display-container">
           <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
+          <div class="w3-display-middle w3-text-white w3-padding w3-center" style="width: 100%;">
             <h4 class="trophy-title">Java</h4>
           </div>
           <img src="image/java.jpg" alt="java" style="width:100%">
@@ -212,7 +363,7 @@
       <div class="w3-col l2 m6 w3-margin-bottom">
         <div class="w3-display-container">
           <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
+          <div class="w3-display-middle w3-text-white w3-padding w3-center" style="width: 100%;">
             <h4 class="trophy-title">HTML & CSS</h4>
           </div>
           <img src="image/htmlcss.png" alt="html and css" style="width:100%">
@@ -221,7 +372,7 @@
       <div class="w3-col l2 m6 w3-margin-bottom">
         <div class="w3-display-container">
           <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
+          <div class="w3-display-middle w3-text-white w3-padding w3-center" style="width: 100%;">
             <h4 class="trophy-title">Javascript</h4>
           </div>
           <img src="image/javascript.png" alt="javascript" style="width:100%">
@@ -230,7 +381,7 @@
       <div class="w3-col l2 m6 w3-margin-bottom">
         <div class="w3-display-container">
           <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
+          <div class="w3-display-middle w3-text-white w3-padding w3-center" style="width: 100%;">
             <h4 class="trophy-title">MySQL</h4>
           </div>
           <img src="image/mysql.png" alt="mysql" style="width:100%">
@@ -239,7 +390,7 @@
       <div class="w3-col l2 m6 w3-margin-bottom">
         <div class="w3-display-container">
           <div class="w3-display-middle w3-black w3-padding w3-opacity-max" style="width:100%; height:100%"></div>
-          <div class="w3-display-middle w3-text-white w3-padding">
+          <div class="w3-display-middle w3-text-white w3-padding w3-center" style="width: 100%;">
             <h4 class="trophy-title">XR</h4>
           </div>
           <img src="image/vr.jpg" alt="xr" style="width:100%">
